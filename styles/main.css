@@ -1,0 +1,107 @@
+html { 
+  background: url("../images/background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+}
+
+body {
+	font-family: Arial
+}
+
+.title {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 200%
+}
+
+.author {
+	color: black;
+	text-align: center;
+	font-size: 100%
+}
+
+.logo {
+    display: block;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px 
+}
+
+/*input {
+	float: left;
+}*/
+
+input[type="image"] {
+	margin-top: .5rem;
+	width: 2.45rem;
+}
+
+input[name="input"] {
+    border-color: #33D6AD;
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+    border-width: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 2.21rem;
+    position: relative;
+    top: -2.15rem;
+    width: 13.71rem; 
+}
+
+label {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center
+}
+
+.container {
+	text-align: center;
+}
+
+.container:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { 
+   text-align: center;  
+}
+
+::-moz-placeholder {  
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+label {
+	color: white;
+}
+
+div.checklist {
+	width: 21.42857143rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[name="input"]:focus {
+	outline: none;
+}
+
+.button-group {
+	display: inline-block;
+	text-align: center;
+}
