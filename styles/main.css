@@ -31,10 +31,6 @@ body {
     width: 150px 
 }
 
-/*input {
-	float: left;
-}*/
-
 input[type="image"] {
 	margin-top: .5rem;
 	width: 2.45rem;
