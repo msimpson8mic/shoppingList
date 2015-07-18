@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Shopping List</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
-	<script type="text/javascript" src="js/app.js"></script>
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 	<link rel="icon" type="image/ico" href="favicon.ico">
 </head>
 <body>
@@ -16,12 +17,12 @@
 	<form class="input">
 		<div class="container">
 			<div class="button-group">
-				<input type="image" name="add" src="images/add.png" />
+				<img class="add-button" src="images/add.png" alt="Add-button">
 				<label class="add-label">Add</label>
 			</div>
-			<input type="text" name="input" placeholder="Enter items here. . ." />
+			<input type="text" name="input" placeholder="Enter items here. . ." class="item" />
 			<div class="button-group">
-				<input type="image" name="remove" src="images/remove.png" />
+				<img class="remove-button" src="images/remove.png" alt="Remove-button">
 				<label class="remove-label">Remove</label>
 			</div>
 		</div>
@@ -29,7 +30,13 @@
 	
 		
 	
-	<div class="checklist"></div>
+	<div class="checklist-wrapper">
+		<form class="checklist">
+			<ul class="checklist-list"> 
+
+			</ul>
+		</form>
+	</div>
 			
 
 </body>
